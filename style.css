@@ -1,0 +1,24 @@
+div{
+    width: 80%;
+    padding: 20px;
+    border: 2px solid black;
+}
+.button{
+    cursor: pointer;
+    background-color: bisque;
+}
+.text{
+    display: none;
+}
+.button span{
+    padding: 0;
+    margin-top: -15px;
+    display: inline-block;
+    float: right;
+    font-size: 40px;
+    transform-origin:center;
+    transition:all .6s ease-in-out;
+}
+.button span.active{
+    transform:rotate(135deg);
+  }
